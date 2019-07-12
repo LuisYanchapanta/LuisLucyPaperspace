@@ -17,4 +17,7 @@ function final(){
 document.getElementsByClassName("hollow medium whiteGlo")[0].click();  }
 final();
 //Make the machine verify
-alert("success");
+ if (confirm("On/Ready")) {
+  txt = "VM is running!";
+}
+
