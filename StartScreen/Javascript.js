@@ -22,23 +22,15 @@ function final(){
 document.getElementsByClassName("hollow medium whiteGlo")[0].click(); 
  }
 final();
-function redirect() {
-  location.replace("https://www.w3schools.com")
-}
-Timer timer = new Timer();
-timer.schedule(new TimerTask() {
 
-        @Override
-        public void run() {
-            Platform.runLater(new Runnable() {
-                @Override
-                public void run() {
-                    label.setText("");
-                }
-            });
-
-        }
-    }, 3000);
-    function redirect() { 
-      location.replace("https://www.paperspace.com/console/machines")
-}
+if (".psbadge psbadge-alert" === $0){
+    function redirect(){
+   location.replace("https://www.paperspace.com/machine/psd1h9qdt")
+    } 
+redirect();
+   }
+   setTimeout(function(){
+    window.location.href = 'https://www.paperspace.com/console/machines';
+    }, 120000);
+    
+    
