@@ -22,15 +22,19 @@ function final(){
 document.getElementsByClassName("hollow medium whiteGlo")[0].click(); 
  }
 final();
-
-if (".psbadge psbadge-alert" === $0){
-    function redirect(){
-   location.replace("https://www.paperspace.com/machine/psd1h9qdt")
-    } 
-redirect();
-   }
-   setTimeout(function(){
+function ready() {
+	document.getElementsByClassName("state-on")[1].innerText.includes("On/Ready");
+	return (true);
+}
+ready();
+ //if (ready === true ){setTimeout(function(){
+    window.location.href = 'https://www.paperspace.com/console/machines';
+    }, 120000);}
+    
+    
+    // setTimeout(function(){
     window.location.href = 'https://www.paperspace.com/console/machines';
     }, 120000);
+
     
-    
+
