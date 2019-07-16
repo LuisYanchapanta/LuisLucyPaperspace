@@ -145,6 +145,13 @@ clickVM();
 if(
 window.location.href === 'https://www.paperspace.com/console/machines'
 ) {
+    alert("Machine was created");
+}
+/*This is the part that checks that the virtual machine is ready to use but still needs work, I replaced it with the code above for now.
+
+if(
+window.location.href === 'https://www.paperspace.com/console/machines'
+) {
 
 if(
 document.getElementsByClassName("state-on")[1].innerText.includes("On/Ready") === true
@@ -154,3 +161,4 @@ alert("Machine was created");
 }
 
 }
+*/
